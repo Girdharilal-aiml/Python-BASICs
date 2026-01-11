@@ -1,3 +1,5 @@
+# TODAY WE WILL LEARN BASICS OF PYTHON IN THIS REPO
+
 print("Welcome Bhai , Karein start?")
 print("Hello World")
 
