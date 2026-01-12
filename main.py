@@ -1,5 +1,6 @@
 # TODAY WE WILL LEARN BASICS OF PYTHON IN THIS REPO
 #Python is implicit typed language ----> Simply means we don't have to tell the type of the variable
+
 #BASIC PRINTING
 print("Welcome Bhai , Karein start?")
 print("Hello World")
@@ -29,3 +30,17 @@ a = None
 
 print(type(Old))
 print(type(a))              #None Type
+
+
+# TO TAKE INPUT
+
+# String 
+name2 = input("Enter Name: ")
+
+# Integer
+age2 = int(input("Your Age: "))
+
+# Float
+price2 = float(input("Price : "))
+
+
