@@ -43,4 +43,9 @@ age2 = int(input("Your Age: "))
 # Float
 price2 = float(input("Price : "))
 
+print(name2)
+print(age2)
+print(price2)
 
+
+coool its working
