@@ -47,5 +47,3 @@ print(name2)
 print(age2)
 print(price2)
 
-
-coool its working
