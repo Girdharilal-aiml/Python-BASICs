@@ -1,11 +1,13 @@
 # TODAY WE WILL LEARN BASICS OF PYTHON IN THIS REPO
 #Python is implicit typed language ----> Simply means we don't have to tell the type of the variable
 
+""" Write Something in-between to comment out all """
+
 #BASIC PRINTING
 print("Welcome Bhai , Karein start?")
 print("Hello World")
 
-print("My name is","Girdhari lal")
+print("My name is","Girdhari lal")          # , is used to connect two sentences
 print(19)
 print(19-19)
 
@@ -47,3 +49,4 @@ print(name2)
 print(age2)
 print(price2)
 
+print("My name is",name2,"I am",age2,"year old and I am selling pen for",price2)
