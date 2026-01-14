@@ -39,3 +39,12 @@ elif(marks<=50):
     print("F")
 else:
     print("Invalid Signal")
+
+
+""" Single Line if / Ternary Operation
+<var> = <value1> if <condition> else <value2>   """
+
+food = input("Food is: ")
+eat = "Yes" if food=="cake" else "No"
+print(eat)
+
