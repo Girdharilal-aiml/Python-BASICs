@@ -17,3 +17,7 @@ print(DIV)
 
 POW = a ** b    #a^b
 print(POW)
+
+#Relation Operators
+print(a==b)     #False
+print(a!=b)     #True
