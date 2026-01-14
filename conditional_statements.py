@@ -63,7 +63,7 @@ print("sweet") if fruit == "apple" or fruit == "pineapple" else print("Not sure"
 
 age = int(input("Enter your age: "))
 vote = ("YES", "NO") [age >= 18]
-
+print(vote)
 
 sal = float(input("Enter your salary: "))
 tax = sal*(0.1,0.2) [sal <= 50000]
