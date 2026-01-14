@@ -42,9 +42,17 @@ else:
 
 
 """ Single Line if / Ternary Operation
-<var> = <value1> if <condition> else <value2>   """
+<var> = <value1> if <condition> else <value2>  
+    FIRST  """
 
 food = input("Food is: ")
 eat = "Yes" if food=="cake" else "No"
 print(eat)
 
+
+
+""" SECOND   
+    <statment1> if <condition> else <statment2>     """
+
+fruit = input("Enter fruit: ")
+print("sweet") if fruit == "apple" or fruit == "pineapple" else print("Not sure")
