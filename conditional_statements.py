@@ -56,3 +56,15 @@ print(eat)
 
 fruit = input("Enter fruit: ")
 print("sweet") if fruit == "apple" or fruit == "pineapple" else print("Not sure")
+
+
+""" Clever if / Ternary Operation
+<var> = (false_value, true_value) [<condition>] """
+
+age = int(input("Enter your age: "))
+vote = ("YES", "NO") [age >= 18]
+
+
+sal = float(input("Enter your salary: "))
+tax = sal*(0.1,0.2) [sal <= 50000]
+print(tax)
