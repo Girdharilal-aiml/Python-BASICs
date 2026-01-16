@@ -20,3 +20,4 @@ print(str1)
 print(str1.find("a"))
 
 str1.count("AM")                            #counts the occurrence of substr in string
+print(str1.count("am"))
