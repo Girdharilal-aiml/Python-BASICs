@@ -1,3 +1,7 @@
+# STRINGS AND CONDITIONAL STATEMENTS
+
+
+
 # WAP to check if a number entered by the user is odd or even.
 
 number1 = int(input("Enter Number1: "))
