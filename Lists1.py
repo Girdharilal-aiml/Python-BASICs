@@ -35,8 +35,14 @@ print(list1)
 list1.reverse()                                 # reverse list [4,-10,-4,8,6,2]
 print(list1)
 
-list1.insert( 3 , 5 )                    # insert element at index
+list1.insert( 3 , 5 )                           # insert element at index
 print(list1)
 
+list1.remove(-4)                                # removes first occurence of the element [-10, 2, 5, 4, 6, 8]                            
+print(list1)
 
+list1.pop(2)                                    # removes element at idx [-10, 2, 4, 6, 8]
+print(list1)
+
+# Search Python documentation for more methods
 
