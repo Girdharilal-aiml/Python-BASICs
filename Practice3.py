@@ -41,9 +41,3 @@ list1.append(mov2)
 list1.append(mov3)
 
 print(list1)
-dasasf
-
-dsafa
-
-dasfjnfda 
-xadsfk
