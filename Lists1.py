@@ -18,10 +18,25 @@ print(Student1)
 
 # LIST METHODS
 
-list1 = [2,54,6,1,6]
+# All changes are made in original list
 
-list1.append(4)                                 # adds one element at the end    [2,54,6,1,6,4]
-list1.sort()                                    # sorts in ascending order [1,2,6,6,54]
-list1.sort( reverse = True )                    # sorts in descending order [54,6,6,2,1]
-list1.reverse()                                 # reverse list [6,1,6,54,2]
-list1.insert( idx, el )                         # insert element at index
+list1 = [2,6,8,-4,-10]
+print(list1)
+
+list1.append(4)                                 # adds one element at the end    [2,6,8,-4,-10,4]
+print(list1)
+
+list1.sort()                                    # sorts in ascending order [-10,-4,2,4,6,8]
+print(list1)
+
+list1.sort( reverse = True )                    # sorts in descending order [8,6,4,2,-4,-10]
+print(list1)
+
+list1.reverse()                                 # reverse list [4,-10,-4,8,6,2]
+print(list1)
+
+list1.insert( 3 , 5 )                    # insert element at index
+print(list1)
+
+
+
