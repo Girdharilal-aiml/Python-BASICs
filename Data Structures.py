@@ -5,3 +5,13 @@
 
 # Now in python we have 4 types of in-build data structure 
 # List, Tuple, Dictionary, Set 
+
+
+
+# SHALLOW COPY
+x = [1, 2, 3, 4, 5]
+y = x.copy()
+y[0] = 100
+print(x)   # [1, 2, 3, 4, 5]
+print(y)   # [100, 2, 3, 4, 5]
+
