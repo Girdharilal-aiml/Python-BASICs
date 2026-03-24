@@ -49,3 +49,10 @@ s = {1, 2, 3, 4, 5, 1.5, "Hello", True, (1, 2), frozenset({1, 2}), None}
 print(s)
 print(type(s))
 
+
+
+# TUPLE
+# A tuple is a collection of items that are ordered and unchangeable.
+z = (1, 2, 3, 4, 5, 1.5, "Hello", True, [1, 2, 3], (1, 2), {"name": "Alice"})
+print(z)
+print(type(z))
