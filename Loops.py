@@ -28,3 +28,11 @@ for i in range(n,(n*10)+1,n):
 b = "Learning is key to success"
 print(len(b))
 
+for i in range(len(b)):
+    print(b[i])
+
+
+c = 2
+while c <= 20:
+    print(c)
+    c += 2
