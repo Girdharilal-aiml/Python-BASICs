@@ -62,3 +62,11 @@ print(e)
 print(f)     
 print(g)
 print(h)
+
+
+
+# LIST  
+# A list is a collection of items that are ordered and changeable.
+a = [1, 2, 3, 4, 5, 1.5, "Hello", True, [1, 2, 3], (1, 2), {"name": "Alice"}]
+print(a)
+print(type(a))
