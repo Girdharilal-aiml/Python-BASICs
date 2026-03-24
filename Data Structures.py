@@ -24,3 +24,12 @@ g[0] = 100
 print(f)   # [100, 2, 3, 4, 5]
 print(g)   # [100, 2, 3, 4, 5]
 
+
+
+# DICTIONARY
+# A dictionary is a collection of key-value pairs that are unordered, changeable, and indexed
+d = {"name": "Alice", "age": 30, "city": "New York"}
+print(d)   
+print(type(d))
+print(d["name"])   # Accessing value using key
+print(d.get("age"))  # Accessing value using get method
