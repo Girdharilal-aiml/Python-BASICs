@@ -40,3 +40,12 @@ for i in d:
 for i in d.values():
     print(i)
 
+
+
+# SET
+# A set is a collection of items that are unordered and unindexed.
+# UNORDERED, UNINDEXED, NO DUPLICATES
+s = {1, 2, 3, 4, 5, 1.5, "Hello", True, (1, 2), frozenset({1, 2}), None}
+print(s)
+print(type(s))
+
