@@ -70,3 +70,16 @@ print(h)
 a = [1, 2, 3, 4, 5, 1.5, "Hello", True, [1, 2, 3], (1, 2), {"name": "Alice"}]
 print(a)
 print(type(a))
+
+for i in a:
+    print(i)
+
+for i in range(len(a)):
+    print(a[i])
+
+a.append("World")
+print(a)
+
+b= [6, 8]
+b.insert(1, 7)
+print(b)
