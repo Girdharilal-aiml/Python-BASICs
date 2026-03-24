@@ -16,4 +16,15 @@ for i in range(1,10,2):
 for i in range(5,51,5):
     print(i)
 
+# Which Table you want?
+n = int(input("Enter number of table you want?: "))
+
+for i in range(n,(n*10)+1,n):
+    print(i)
+
+
+# String in LOOP
+
+b = "Learning is key to success"
+print(len(b))
 
