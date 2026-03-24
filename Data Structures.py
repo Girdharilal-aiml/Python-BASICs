@@ -33,3 +33,10 @@ print(d)
 print(type(d))
 print(d["name"])   # Accessing value using key
 print(d.get("age"))  # Accessing value using get method
+
+for i in d:
+    print(d[i])   # Accessing values using keys
+
+for i in d.values():
+    print(i)
+
