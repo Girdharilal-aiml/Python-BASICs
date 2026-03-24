@@ -8,3 +8,8 @@ r.close()       # closing the file after writing
 r = open("Superman.txt", "a")       # a means append mode, it will add new content to the existing file without overwriting it
 r.write("adding new content with a = append")
 r.close()       
+
+p = open(r"C:\Users\D E L L\OneDrive\Desktop\NEW YEAR CHECKLIST.txt")       # r means default read mode
+print(p.read())
+p.close()
+
