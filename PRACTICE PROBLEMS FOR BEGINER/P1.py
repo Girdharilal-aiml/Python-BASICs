@@ -61,6 +61,12 @@ def updatefile():
             print("3 for appending data to the file")
             choice = int(input("Enter your choice: "))
 
+            if choice == 1:
+                new_name = input("Enter the new name of the file: ")
+                p2 = Path(new_name)
+                p.rename(p2)
+                print("File name changed successfully")
+
             
     except Exception as e:
         print("Error: ", e)
