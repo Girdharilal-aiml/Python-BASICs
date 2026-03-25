@@ -45,7 +45,8 @@ def readfile():
                 data = fs.read()
                 print("Data in the file: ", data)
             print("File read successfully")
-        
+        else:
+            print("File does not exist")
     except Exception as e:
         print("Error: ", e)
 
