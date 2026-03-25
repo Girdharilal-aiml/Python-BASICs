@@ -67,6 +67,12 @@ def updatefile():
                 p.rename(p2)
                 print("File name changed successfully")
 
+            if choice == 2:
+                with open(p, 'w') as fs:
+                    data = input("Enter the data you want to write in the file: ")
+                    fs.write(data)
+                print("File updated successfully")
+
             
     except Exception as e:
         print("Error: ", e)
