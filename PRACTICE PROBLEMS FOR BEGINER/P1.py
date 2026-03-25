@@ -40,6 +40,11 @@ def readfile():
         read_all_file_name()
         name = input("Enter the name of the file you want to read: ")
         p = Path(name)
+        if p.exists() and p.is_file():
+            with open(p, 'r') as fs:
+                data = fs.read()
+                print("Data in the file: ", data)
+            print("File read successfully")
         
     except Exception as e:
         print("Error: ", e)
