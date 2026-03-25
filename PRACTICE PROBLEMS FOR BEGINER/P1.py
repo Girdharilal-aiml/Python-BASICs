@@ -55,7 +55,12 @@ def updatefile():
         read_all_file_name()
         name = input("Enter the name of the file you want to update: ")
         p = Path(name)
-        
+        if p.exists() and p.is_file():
+            print("1 for changing name of the file")
+            print("2 for overwriting data of the file")
+            print("3 for appending data to the file")
+            choice = int(input("Enter your choice: "))
+
             
     except Exception as e:
         print("Error: ", e)
