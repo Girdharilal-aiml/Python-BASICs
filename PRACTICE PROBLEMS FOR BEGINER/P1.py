@@ -73,7 +73,11 @@ def updatefile():
                     fs.write(data)
                 print("File updated successfully")
 
-            
+            if choice == 3:
+                with open(p, 'a') as fs:
+                    data = input("Enter the data you want to append in the file: ")
+                    fs.write(" "+data)
+                print("File updated successfully")
     except Exception as e:
         print("Error: ", e)
 
