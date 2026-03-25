@@ -25,6 +25,7 @@ def createfile():
         name = input("Enter the name of the file you want to create: ")
         p = Path(name)
         
-
+    except Exception as e:
+        print("Error: ", e)
 
 
