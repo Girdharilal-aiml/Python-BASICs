@@ -29,7 +29,8 @@ def createfile():
                 data = input("Enter the data you want to write in the file: ")
                 fs.write(data)
             print("File created successfully")
-        
+        else:
+            print("File already exists")
     except Exception as e:
         print("Error: ", e)
 
