@@ -87,6 +87,21 @@ def deletefile():
         name = input("Enter the name of the file you want to delete: ")
         p = Path(name)
 
+        if p.exists() and p.is_file():
+            os.remove(p)
+            print("File deleted successfully")
             
     except Exception as e:
         print("Error: ", e)
+
+if choice == 1:
+    createfile()
+
+if choice == 2:
+    readfile()
+
+if choice == 3:
+    updatefile()
+
+if choice == 4:
+    deletefile()
