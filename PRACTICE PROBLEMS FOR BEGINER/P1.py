@@ -11,3 +11,7 @@ print("3 for Appending a file")
 print("4 for Deleting a file")
 choice = int(input("Enter your choice: "))
 
+def read_all_file_name():
+    path = Path(__file__).parent
+    items = list(path.iterdir())
+
