@@ -81,3 +81,4 @@ def updatefile():
     except Exception as e:
         print("Error: ", e)
 
+def deletefile():
