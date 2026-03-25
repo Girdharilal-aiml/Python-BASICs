@@ -15,3 +15,6 @@ def read_all_file_name():
     path = Path(__file__).parent
     items = list(path.iterdir())
 
+    for i, item in enumerate(items):
+        print(i+1, item.name)
+
