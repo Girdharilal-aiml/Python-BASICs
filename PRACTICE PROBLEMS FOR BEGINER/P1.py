@@ -52,6 +52,9 @@ def readfile():
 
 def updatefile():
     try: 
+        read_all_file_name()
+        name = input("Enter the name of the file you want to update: ")
+        p = Path(name)
         
             
     except Exception as e:
