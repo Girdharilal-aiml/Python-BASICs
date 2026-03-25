@@ -35,3 +35,10 @@ def createfile():
         print("Error: ", e)
 
 
+def readfile():
+    try:
+        read_all_file_name()
+        name = input("Enter the name of the file you want to read: ")
+        p = Path(name)
+     
+
