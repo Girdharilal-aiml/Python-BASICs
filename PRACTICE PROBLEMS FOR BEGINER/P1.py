@@ -24,6 +24,11 @@ def createfile():
         read_all_file_name()
         name = input("Enter the name of the file you want to create: ")
         p = Path(name)
+        if not p.exists():
+            with open(p, 'w') as fs:
+                data = input("Enter the data you want to write in the file: ")
+                fs.write(data)
+            print("File created successfully")
         
     except Exception as e:
         print("Error: ", e)
