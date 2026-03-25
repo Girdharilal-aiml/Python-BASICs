@@ -26,3 +26,8 @@
 #     elif a[i] > c:
 #         c = a[i]
 #         index2 = i
+        
+# print(c)
+# print(index2)
+# print(b)
+# print(index)
