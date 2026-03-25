@@ -18,3 +18,13 @@ def read_all_file_name():
     for i, item in enumerate(items):
         print(i+1, item.name)
 
+
+def createfile():
+    try:
+        read_all_file_name()
+        name = input("Enter the name of the file you want to create: ")
+        p = Path(name)
+        
+
+
+
