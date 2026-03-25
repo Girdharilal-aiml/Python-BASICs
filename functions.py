@@ -3,3 +3,11 @@
 def hello():
     print("Hello World")
 
+hello()      # function call 
+
+
+def palindrome(str1):
+    rev = ""
+    for i in range(len(str1)-1,-1,-1):
+        rev = rev + str1[i]
+    
