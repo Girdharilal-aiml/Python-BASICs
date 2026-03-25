@@ -13,3 +13,16 @@
 # FINDING LARGEST AND SECOND LARGEST NUMBER IN A LIST
 # a = [-1,3,-4,3,4,6,12,-2,45,-4,18]
 
+# b = a[0]
+# c = a[0]
+# index = 0
+# index2 = 0
+# for i in range(1, len(a)):
+#     if a[i] > b:
+#         c = b
+#         index2 = index
+#         b = a[i]
+#         index = i
+#     elif a[i] > c:
+#         c = a[i]
+#         index2 = i
