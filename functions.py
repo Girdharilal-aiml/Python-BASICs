@@ -11,3 +11,13 @@ def palindrome(str1):
     for i in range(len(str1)-1,-1,-1):
         rev = rev + str1[i]
     
+    if rev == str1:
+        print(f"Palindrome {str1}")
+    else:
+        print("Not a Palindrome")
+
+
+palindrome("madam")
+palindrome("hello")
+
+
