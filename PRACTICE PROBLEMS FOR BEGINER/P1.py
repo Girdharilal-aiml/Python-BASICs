@@ -82,3 +82,11 @@ def updatefile():
         print("Error: ", e)
 
 def deletefile():
+    try:
+        read_all_file_name()
+        name = input("Enter the name of the file you want to delete: ")
+        p = Path(name)
+
+            
+    except Exception as e:
+        print("Error: ", e)
